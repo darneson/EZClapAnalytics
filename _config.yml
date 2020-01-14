@@ -15,6 +15,8 @@ description: A foray into NFL analytics
 
 # baseurl should be an empty string
 #baseurl: ""
+site_url: https://darneson.github.io/EZClapAnalytics/  #used for using local images in production
+baseurl: /EZClapAnalytics #need to specify this to use relative paths
 
 # --- Navigation bar options --- #
 
@@ -28,7 +30,7 @@ navbar-links:
 
 # Image to show in the navigation bar - image must be a square (width = height)
 # Remove this parameter if you don't want an image in the navbar
-avatar: "/img/avatar-icon.png"
+avatar: "{{ site.baseurl }}/img/avatar-icon.png"
 
 # If you want to have an image logo in the top-left corner instead of the title text,
 # then specify the following parameter
