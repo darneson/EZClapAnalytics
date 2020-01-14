@@ -15,8 +15,8 @@ description: A foray into NFL analytics
 
 # baseurl should be an empty string
 #baseurl: ""
-#site_url: https://darneson.github.io/EZClapAnalytics/  #used for using local images in production
-#baseurl: /EZClapAnalytics #need to specify this to use relative paths
+site_url: https://darneson.github.io/EZClapAnalytics/  #used for using local images in production
+baseurl: /EZClapAnalytics #need to specify this to use relative paths
 
 # --- Navigation bar options --- #
 
